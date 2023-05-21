@@ -2,19 +2,43 @@
     display: ;
 }
 
+.homepage-hero--h2 {
+    color: #414b56;
+    font-weight:600;
+    font-size: 36px;
+    margin: 20px 0px;
+}
+
+.homepage-hero--p {
+    color: #414b56;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    color: white;
+    background-color: #006EA5;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
 .homepage-hero--image {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    padding: 50px 80px;
+    min-height: 300px;
 }
 
 .homepage-hero--content-mobile {
-    padding: 20px;
+    padding: 0px 30px 30px 30px;
   }
 
 .homepage-hero--content {
     display: none;
   }
+
+
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -24,4 +48,17 @@
   .homepage-hero--content {
     display: block;
   }
+  .homepage-hero--image {
+    min-height: 600px;
+}
+  .homepage-hero--h2 {
+    color: white;
+    font-weight:600;
+    font-size: 48px;
+}
+
+.homepage-hero--p {
+    color: white;
+    margin-bottom: 30px;
+}
 }
