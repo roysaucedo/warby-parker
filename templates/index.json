@@ -5,11 +5,11 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/image_3_1.png",
         "image_mobile": "shopify:\/\/shop_images\/image_4_3.png",
-        "h2": "Heading Text",
-        "p": "Add paragraph text here",
-        "btn-text-one": "Button Text",
+        "h2": "New Floating Metal frames have landed",
+        "p": "",
+        "btn-text-one": "Shop the collection",
         "btn-url-one": "",
-        "btn-text-two": "Button Text",
+        "btn-text-two": "",
         "btn-url-two": ""
       }
     }
