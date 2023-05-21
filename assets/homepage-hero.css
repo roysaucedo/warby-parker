@@ -1,12 +1,12 @@
 .homepage-hero--container{
-    display: ;
+    
 }
 
 .homepage-hero--h2 {
     color: #414b56;
     font-weight:600;
     font-size: 30px;
-    margin: 20px 0px;
+    margin: 40px 0px;
 }
 
 .homepage-hero--p {
@@ -16,8 +16,8 @@
 
 .btn {
     padding: 12px 25px;
-    color: white;
-    background-color: #006EA5;
+    color: #414b56;
+    background-color: white;
     border-radius: 100px;
     text-decoration: none;
     margin-right: 10px;
@@ -26,16 +26,15 @@
 .homepage-hero--image {
     display: flex;
     align-items: flex-end;
-    padding: 50px 80px;
-    min-height: 300px;
+    justify-content: center;
+    padding: 40px 20px;
+    min-height: 500px;
+    background-position: right;
+    text-align: center;
 }
 
 .homepage-hero--content-mobile {
     padding: 0px 30px 30px 30px;
-  }
-
-.homepage-hero--content {
-    display: none;
   }
 
 
@@ -49,16 +48,17 @@
     display: block;
   }
   .homepage-hero--image {
-    min-height: 600px;
+    min-height: 750px;
+    padding: 50px 80px;
+    justify-content: start;
+    text-align: left;
 }
   .homepage-hero--h2 {
-    color: white;
     font-weight:600;
     font-size: 48px;
 }
 
 .homepage-hero--p {
-    color: white;
     margin-bottom: 30px;
 }
 }
