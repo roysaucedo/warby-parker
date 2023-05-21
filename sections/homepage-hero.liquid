@@ -3,9 +3,17 @@
 <style>
     .homepage-hero--image {
         width: 100%;
+        background-image: url("{{section.settings.image_mobile | image_url }}");
+        background-size: cover;
+    }
+    @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .homepage-hero--image {
+        width: 100%;
         background-image: url("{{section.settings.image | image_url }}");
         background-size: cover;
     }
+}
 </style>
 <div class="homepage-hero--container">
     <div class="homepage-hero--image">
@@ -33,7 +41,12 @@
     {
       "type": "image_picker",
       "id": "image",
-      "label": "t:sections.image-banner.settings.image.label"
+      "label": "Desktop Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Mobile Image"
     },
     {
       "type": "text",
