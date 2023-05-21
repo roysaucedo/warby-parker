@@ -1,5 +1,11 @@
 {
   "sections": {
+    "aa8f16d2-22c5-4889-afad-acdb9acf7813": {
+      "type": "homepage-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/barista-pours-over-coffee-at-cafe.jpg"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -68,6 +74,7 @@
     }
   },
   "order": [
+    "aa8f16d2-22c5-4889-afad-acdb9acf7813",
     "image_banner",
     "featured_collection"
   ]
