@@ -11,20 +11,20 @@
 <div class="homepage-hero--container">
     <div class="homepage-hero--image">
         <div class="homepage-hero--content">
-            <h2 class="homepage-hero--h2">Try on 5 frames without leaving home</h2>
-            <p class="homepage-hero--p">Pick your favorite styles to try out for 5 days. It's easy and completely free - including return shipping!</p>
+            <h2 class="homepage-hero--h2">{{ section.settings.h2 }}</h2>
+            <p class="homepage-hero--p">{{ section.settings.p }}</p>
             <div class="homepage-hero--btn-div">
-                <a class="btn" href="">Browse Women</a>
-                <a class="btn" href="">Browse Men</a>
+                <a class="btn" href="{{ section.settings.btn-url-one }}">{{ section.settings.btn-text-one }}</a>
+                <a class="btn" href="{{ section.settings.btn-url-two }}">{{ section.settings.btn-text-two }}</a>
             </div>
         </div>
     </div>
     <div class="homepage-hero--content-mobile">
-            <h2 class="homepage-hero--h2">Try on 5 frames without leaving home</h2>
-            <p class="homepage-hero--p">Pick your favorite styles to try out for 5 days. It's easy and completely free - including return shipping!</p>
+        <h2 class="homepage-hero--h2">{{ section.settings.h2 }}</h2>
+        <p class="homepage-hero--p">{{ section.settings.p }}</p>
             <div class="homepage-hero--btn-div">
-                <a class="btn" href="">Browse Women</a>
-                <a class="btn" href="">Browse Men</a>
+                <a class="btn" href="{{ section.settings.btn-url-one }}">{{ section.settings.btn-text-one }}</a>
+                <a class="btn" href="{{ section.settings.btn-url-two }}">{{ section.settings.btn-text-two }}</a>
             </div>
     </div>
 
@@ -44,6 +44,40 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
+    },
+    {
+      "type": "text",
+      "id": "h2",
+      "label": "Heading text",
+      "default": "Heading Text"
+    },
+    {
+      "type": "text",
+      "id": "p",
+      "label": "Paragraph",
+      "default": "Add paragraph text here"
+    },
+    {
+      "type": "text",
+      "id": "btn-text-one",
+      "label": "Button 1 Text",
+      "default": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn-url-one",
+      "label": "Button 1 Link"
+    },
+    {
+      "type": "text",
+      "id": "btn-text-two",
+      "label": "Button 2 Text",
+      "default": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn-url-two",
+      "label": "Button 2 Link"
     }
   ],
   "presets": [
