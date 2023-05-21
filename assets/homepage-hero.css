@@ -1,0 +1,27 @@
+.homepage-hero--container{
+    display: ;
+}
+
+.homepage-hero--image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-hero--content-mobile {
+    padding: 20px;
+  }
+
+.homepage-hero--content {
+    display: none;
+  }
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .homepage-hero--content-mobile {
+    display: none;
+  }
+  .homepage-hero--content {
+    display: block;
+  }
+}

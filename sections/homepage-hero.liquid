@@ -1,0 +1,54 @@
+{{ 'homepage-hero.css' | asset_url | stylesheet_tag }}
+
+<style>
+    .homepage-hero--image {
+        width: 100%;
+        min-height: 500px;
+        background-image: url("{{section.settings.image | image_url }}");
+        background-size:cover;
+        background-position: left;
+    }
+</style>
+<div class="homepage-hero--container">
+    <div class="homepage-hero--image">
+        <div class="homepage-hero--content">
+            <h2>Try on 5 frames without leaving home</h2>
+            <p>Pick your favorite styles to try out for 5 days. It's easy and completely free - including return shipping!</p>
+            <div class="homepage-hero--btn-div">
+                <a class="btn" href="">Browse Women</a>
+            </div>
+        </div>
+    </div>
+    <div class="homepage-hero--content-mobile">
+            <h2>Try on 5 frames without leaving home</h2>
+            <p>Pick your favorite styles to try out for 5 days. It's easy and completely free - including return shipping!</p>
+            <div class="homepage-hero--btn-div">
+                <a class="btn" href="">Browse Women</a>
+            </div>
+    </div>
+
+</div>
+
+
+{% schema %}
+{
+  "name": "Homepage Hero Banner",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-banner.settings.image.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Homepage Hero Banner"
+    }
+  ]
+}
+{% endschema %}
