@@ -3,7 +3,13 @@
     "aa8f16d2-22c5-4889-afad-acdb9acf7813": {
       "type": "homepage-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/barista-pours-over-coffee-at-cafe.jpg"
+        "image": "shopify:\/\/shop_images\/image_3_1.png",
+        "h2": "Heading Text",
+        "p": "Add paragraph text here",
+        "btn-text-one": "Button Text",
+        "btn-url-one": "",
+        "btn-text-two": "Button Text",
+        "btn-url-two": ""
       }
     },
     "image_banner": {
