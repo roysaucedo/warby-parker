@@ -4,6 +4,7 @@
       "type": "homepage-hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/image_3_1.png",
+        "image_mobile": "shopify:\/\/shop_images\/image_4_3.png",
         "h2": "Heading Text",
         "p": "Add paragraph text here",
         "btn-text-one": "Button Text",
